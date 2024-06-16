@@ -1,0 +1,8 @@
+services:
+  archean:
+    image: xenon3d/archean-server-alpha
+    volumes:
+      - './archean_data:/Archean-data/server'
+    ports:
+      - '8881:8881/tcp'
+      - '8881:8881/udp'
